@@ -1,0 +1,27 @@
+{
+  "name": "aula1-node-fiap",
+  "version": "1.0.0",
+  "description": "API em nodeJS aula 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deciomontanhani/aula1-node-fiap.git"
+  },
+  "author": "Décio Montanhani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deciomontanhani/aula1-node-fiap/issues"
+  },
+  "homepage": "https://github.com/deciomontanhani/aula1-node-fiap#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "firebase": "^7.14.1",
+    "jsonwebtoken": "^8.5.1",
+    "nodemon": "^2.0.3"
+  }
+}
