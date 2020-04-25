@@ -1,10 +1,9 @@
-const express = require('express');
-
-// Rotas
-const users = require('./users');
-
+const express = require("express");
+const auth = require("./auth");
+const users = require("./users");
 const router = express.Router();
 
-router.use('/users', users);
+router.use("/auth", auth);
+router.use("/users", users);
 
 module.exports = router;
